@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Savor delicious meals delivered to your doorstep! Explore our online restaurant for fresh, flavorful dishes, easy ordering, and quick delivery. Your next favorite meal is just a click away!">
+    <meta name="keywords"    content="HTML, CSS, JavaScript, Framework, Library, swiper">
+    <meta name="author"      content="Ahmed Nayel Al Darabee">
+
+    <title>IShop Restaurant</title>
+    
+    <!-- font awesome file -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- normalization file -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- page logo -->
+    <link rel="icon" href="imgs/home-logo.png">
+
+    <!-- framework file -->
+    <link rel="stylesheet" href="css/framework.css">
+
+    <!-- response media section -->
+    <link rel="stylesheet" href="css/response-media.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <header>
+        <section class="header full-width">
+            <nav class="flex-between margin-auto">
+                <a href="index.html" class="logo">Restaurant</a>
+
+                <i class="fa-solid fa-bars menuIcon"></i>
+                <i class="fa-solid fa-utensils foodIcon"></i>
+
+                <div class="menu flex-between">
+                    
+                    <ul class="transition-3s">
+                        <li class="active"> <a href="index.html">home   </a> </li>
+                        <li> <a href="#about">about  </a> </li>
+                        <li> <a href="#recipes">recipes</a> </li>
+                        <li> <a href="#menu">menu   </a> </li>
+                        <li> <a href="#team">team   </a> </li>
+                    </ul>
+                
+                    <a href="index.html" class="reservationBtn head-order-button"> reservation </a>
+                </div>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <section class="reservation-order flex-center transition-3s">
+            <div class="closed-button">
+                <i class="closeBtn fa-solid fa-xmark pointer transition-3s"></i>
+            </div>
+
+            <div class="order-page text-center">
+                <div class="text-info margin-top-20">
+                    <h3 class="capitalize">enter your info here</h3>
+                </div>
+                <div class="form">
+                    <form action="index.html" class="flex-between flex-wrap gap-20">
+                        <input required type="text" placeholder="full name">
+                        <input required type="number" placeholder="phone number">
+                        <input required type="email" placeholder="email">
+                        <input required type="number" placeholder="item count">
+                        <input required type="date" placeholder="order date">
+                        <input required type="time" placeholder="order time">
+                        <textarea placeholder="your feedback or any think (optional!)" cols="30" rows="2"></textarea>
+                    </form>
+                </div>
+                <div class="button-section margin-top-50 margin-bottom-50">
+                    <a href="index.html" class="reservationBtn">order done</a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="movement-button pointer">
+            <i class="fa-solid fa-upload transition-3s"></i>
+        </section>
+
+        <section class="home">
+            <div class="swiper home-slider">
+                <div class="swiper-wrapper wrapper">
+                    <div class="swiper-slide slide first-slide overlay-slide">
+                        <div class="content">
+                            <h3 class="capitalize">made with love</h3>
+                            <h1 class="capitalize">hot and ready to provide serve for you </h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic laboriosam error suscipit autem ipsam iusto odit molestias fugit reiciendis cupiditate?</p>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide slide second-slide overlay-slide">
+                        <div class="content">
+                            <h3 class="capitalize">restorant offers for you</h3>
+                            <h1 class="capitalize">the best testing experiment </h1>
+                            <a href="index.html" class="reservationBtn capitalize">get a reservation now</a>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide slide third-slide overlay-slide">
+                        <div class="content">
+                            <h3 class="capitalize">we are a height quality online restorant</h3>
+                            <h1 class="capitalize">we provide services as height level quality food </h1>
+                            <a href="index.html" class="reservationBtn capitalize"> view menu</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-btn"></div>
+                <div class="swiper-button-prev swiper-btn"></div>
+            </div>
+        </section>
+
+        <section class="about-us" id="about">
+            <div class="container">
+                <div class="head-section">
+                    <span class="hello-change">hello dear</span>
+                    <h2>welcome in online smart and secure way for shopping</h2>
+                    <img src="imgs/shape-4.png" alt="restaurant shape image">
+                </div>
+
+                <div class="all-content">
+                    <div class="intro div-p">
+                        <p>Restaurant was the first retaurant to open in Egypt, the resturant was designed with the history in mind we have created a soft industrial dining room, combined with an open kitchen, coffee take out bar and coffee roastery.</p>
+                    </div>
+
+                    <div class="boxs flex-between">
+                        <div class="box">
+                            <span>1985</span>
+                            <h3 class="capitalize">grand opening</h3>
+                            <p>Restaurant was opened in May 6, 1990, the interior was created by the most famous artists. Today our restaurant welcomes 250 people!</p>
+                        </div>
+                        <div class="box">
+                            <span>2005</span>
+                            <h3 class="capitalize">second branch</h3>
+                            <p>Since the very first day, Restaurant was a gathering place for teachers, doctors, actors. Therefore we decided to open our second branch!</p>
+                        </div>
+                        <div class="box">
+                            <span>2013</span>
+                            <h3 class="capitalize">great taste award</h3>
+                            <p>Restaurant was and still remains not just a restaurant, but also a remarkable part of the culture. We are happy to announce that we claim tate award</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recipes" id="recipes">
+            <div class="recipe-shape">
+                <div class="recipes-section overlay-slide">
+                    <div class="head-section">
+                        <span>hello dear</span>
+                        <h2>welcome in online smart and secure way for shopping</h2>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="last-experiment">
+                    <div class="packages grid-250">
+
+                        <div class="package flex-center flex-col-dir">
+                            <img src="imgs/rec-1.jpg" alt="restaurant image">
+                            <span>Start eating better</span>
+                            <h2>Daily New Fresh Menus</h2>
+                            <p>Restaurant help you treat yourself with a different meal everyday, thanks to our daily changing menus and our awesome creative chefs!</p>
+                        </div>
+
+                        <div class="package flex-center flex-col-dir">
+                            <img src="imgs/rec-2.jpg" alt="restaurant image">
+                            <span>Quality is the heart</span>
+                            <h2>Fresh Ingredient, Tasty Meals</h2>
+                            <p>Who said healthy food can't also be delicious? Restaurant creative chefs use fresh and seasonal ingredients to make affordable.</p>
+                        </div>
+
+                        <div class="package flex-center flex-col-dir">
+                            <img src="imgs/rec-3.jpg" alt="restaurant image">
+                            <span>Hot & ready to serve</span>
+                            <h2>Creative & Talented Chefs</h2>
+                            <p>Restaurant have offered a team of culinary professionals that make delectable dishes at memorable events for both private clientele.</p>
+                        </div>
+
+                    </div>
+            </div>
+
+        </section>
+
+        <section class="food-menu margin-top-bottom-20" id="menu">
+            <div class="container-new">
+                
+                <div class="menu-list flex-center margin-top-bottom-20">
+                    <ul class="flex-center">
+                        <li class="capitalize">breakfast</li>
+                        <li class="capitalize">lunch</li>
+                        <li class="capitalize">dinner</li>
+                        <li class="capitalize">meal</li>
+                    </ul>
+                </div>
+                
+                <div class="all-package grid-300 overflow-hidden">
+                    <div class="package overflow-hidden">
+                        <img src="imgs/menu-1.jpg" alt="food menu image">
+                        <div class="name-price flex-between padding-20 flex-wrap">
+                            <span class="capitalize"> grilled fillet</span>
+                            <span>$12.99</span>
+                        </div>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, cum?</p>
+                    </div>
+                    <div class="package overflow-hidden">
+                        <img src="imgs/menu-2.jpg" alt="food menu image">
+                        <div class="name-price flex-between padding-20 flex-wrap">
+                            <span class="capitalize"> grilled fillet</span>
+                            <span>$12.99</span>
+                        </div>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, cum?</p>
+                    </div>
+                    <div class="package overflow-hidden">
+                        <img src="imgs/menu-3.jpg" alt="food menu image">
+                        <div class="name-price flex-between padding-20 flex-wrap">
+                            <span class="capitalize"> grilled fillet</span>
+                            <span>$12.99</span>
+                        </div>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, cum?</p>
+                    </div>
+                    <div class="package overflow-hidden">
+                        <img src="imgs/menu-4.jpg" alt="food menu image">
+                        <div class="name-price flex-between padding-20 flex-wrap">
+                            <span class="capitalize"> grilled fillet</span>
+                            <span>$12.99</span>
+                        </div>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, cum?</p>
+                    </div>
+                    <div class="package overflow-hidden">
+                        <img src="imgs/menu-5.jpg" alt="food menu image">
+                        <div class="name-price flex-between padding-20 flex-wrap">
+                            <span class="capitalize"> grilled fillet</span>
+                            <span>$12.99</span>
+                        </div>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, cum?</p>
+                    </div>
+                    <div class="package overflow-hidden">
+                        <img src="imgs/menu-6.jpg" alt="food menu image">
+                        <div class="name-price flex-between padding-20 flex-wrap">
+                            <span class="capitalize"> grilled fillet</span>
+                            <span>$12.99</span>
+                        </div>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, cum?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ordered-button">
+            <div class="flex-center">
+                <div class="btn-reservation margin-top-bottom-50">
+                    <a href="index.html" class="reservationBtn capitalize">order now</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="chefs-section" id="team">
+            <div class="container-section">
+                <div class="chefs grid-200">
+                    <div class="chef pointer text-center padding-10">
+                        <img src="imgs/chef-1.jpg" alt="chef image">
+                        <div class="text-media flex-center flex-col-dir transition-3s">
+                            <div class="media-icon flex-center gap-20">
+                                <a href="index.html"><i class="icon-box fa-brands fa-facebook"></i></a>
+                                <a href="index.html"><i class="icon-box fa-brands fa-linkedin"></i></a>
+                                <a href="index.html"><i class="icon-box fa-brands fa-instagram"></i></a>
+                            </div>
+                            <div class="text-part">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, reiciendis.</p>
+                            </div>
+                        </div>
+                        <div class="name-info">
+                            <p>tood stephen</p>
+                            <span class="capitalize">CEO and founder</span>
+                        </div>
+                    </div>
+                    <div class="chef pointer text-center padding-10">
+                        <img src="imgs/chef-2.jpg" alt="chef image">
+                        <div class="text-media flex-center flex-col-dir transition-3s">
+                            <div class="media-icon flex-center gap-20">
+                                <a href="index.html"><i class="icon-box fa-brands fa-facebook"></i></a>
+                                <a href="index.html"><i class="icon-box fa-brands fa-linkedin"></i></a>
+                                <a href="index.html"><i class="icon-box fa-brands fa-instagram"></i></a>
+                            </div>
+                            <div class="text-part">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, reiciendis.</p>
+                            </div>
+                        </div>
+                        <div class="name-info">
+                            <p>walter adler</p>
+                            <span class="capitalize">master chef</span>
+                        </div>
+                    </div>
+                    <div class="chef pointer text-center padding-10">
+                        <img src="imgs/chef-3.jpg" alt="chef image">
+                        <div class="text-media flex-center flex-col-dir transition-3s">
+                            <div class="media-icon flex-center gap-20">
+                                <a href="index.html"><i class="icon-box fa-brands fa-facebook"></i></a>
+                                <a href="index.html"><i class="icon-box fa-brands fa-linkedin"></i></a>
+                                <a href="index.html"><i class="icon-box fa-brands fa-instagram"></i></a>
+                            </div>
+                            <div class="text-part">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, reiciendis.</p>
+                            </div>
+                        </div>
+                        <div class="name-info">
+                            <p>james carter</p>
+                            <span class="capitalize">thai master chef</span>
+                        </div>
+                    </div>
+                    <div class="chef pointer text-center padding-10">
+                        <img src="imgs/chef-4.jpg" alt="chef image">
+                        
+                        <div class="text-media flex-center flex-col-dir transition-3s">
+                            <div class="media-icon flex-center gap-20">
+                                <a href="index.html"><i class="icon-box fa-brands fa-facebook"></i></a>
+                                <a href="index.html"><i class="icon-box fa-brands fa-linkedin"></i></a>
+                                <a href="index.html"><i class="icon-box fa-brands fa-instagram"></i></a>
+                            </div>
+                            <div class="text-part">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, reiciendis.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="name-info">
+                            <p>michael luke</p>
+                            <span class="capitalize">chinese master chef</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="feedback">
+            <div class="container-new">
+                <div class="content-section">
+                    <div class="feedback-intro text-center">
+                        <span class="capitalize">our clients feedback</span>
+                    </div>
+                    <div class="feedback-blocks grid-200">
+                        <div class="block text-center padding-10 flex-center flex-col-dir gap-20">
+                            <div class="stars-icon">
+                                <i class="fa-solid fa-star gold-color"></i>
+                                <i class="fa-solid fa-star gold-color"></i>
+                                <i class="fa-solid fa-star gold-color"></i>
+                                <i class="fa-solid fa-star gold-color"></i>
+                                <i class="fa-solid fa-star gold-color"></i>
+                            </div>
+                            <div class="description">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam earum culpa necessitatibus impedit dignissimos ad aperiam perferendis alias a amet rem eius delectus, nihil accusamus!</p>
+                            </div>
+                            <div class="user-bg">
+                                <img src="imgs/blog1.png" alt="user image">
+                            </div>
+                            <div class="user-name">
+                                <span class="capitalize">ahmed al darabee</span>
+                            </div>
+                        </div>
+                        <div class="block text-center padding-10 flex-center flex-col-dir gap-20">
+                            <div class="stars-icon">
+                                <i class="fa-solid fa-star gold-color"></i>
+                                <i class="fa-solid fa-star gold-color"></i>
+                                <i class="fa-solid fa-star gold-color"></i>
+                                <i class="fa-solid fa-star gold-color"></i>
+                                <i class="fa-solid fa-star gold-color"></i>
+                            </div>
+                            <div class="description">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam earum culpa necessitatibus impedit dignissimos ad aperiam perferendis alias a amet rem eius delectus, nihil accusamus!</p>
+                            </div>
+                            <div class="user-bg">
+                                <img src="imgs/blog2.png" alt="user image">
+                            </div>
+                            <div class="user-name">
+                                <span class="capitalize">ahmed al darabee</span>
+                            </div>
+                        </div>
+                        <div class="block text-center padding-10 flex-center flex-col-dir gap-20">
+                            <div class="stars-icon">
+                                <i class="fa-solid fa-star gold-color"></i>
+                                <i class="fa-solid fa-star gold-color"></i>
+                                <i class="fa-solid fa-star gold-color"></i>
+                                <i class="fa-solid fa-star gold-color"></i>
+                                <i class="fa-solid fa-star gold-color"></i>
+                            </div>
+                            <div class="description">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam earum culpa necessitatibus impedit dignissimos ad aperiam perferendis alias a amet rem eius delectus, nihil accusamus!</p>
+                            </div>
+                            <div class="user-bg">
+                                <img src="imgs/blog3.png" alt="user image">
+                            </div>
+                            <div class="user-name">
+                                <span class="capitalize">ahmed al darabee</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-section margin-top-20">
+            <div class="content-information flex-center flex-col-dir gap-20">
+                <div class="sections flex-between gap-20 padding-40">
+                    <div class="section flex-center flex-col-dir">
+                        <span class="capitalize">follow me</span>
+                        <div class="section-media">
+                            <a href="index.html"><i class="blue-gb fa-brands fa-facebook"></i></a>
+                            <a href="index.html"><i class="blue-gb fa-brands fa-linkedin"></i></a>
+                            <a href="index.html"><i class="mail-gb fa-solid fa-envelope"></i></a>
+                            <a href="index.html"><i class="pink-gb fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="section flex-center flex-col-dir">
+                        <span class="capitalize">restorant info</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti cupiditate et nostrum aut fugit. Eum incidunt asperiores, pariatur sunt totam nesciunt eveniet accusantium magni voluptate. Voluptatum exercitationem nobis animi odio!</p>
+                    </div>
+                    <div class="section flex-center flex-col-dir">
+                        <span  class="capitalize">invest with me.</span>
+                        <input type="email" placeholder="Enter your email">
+                    </div>
+                </div>
+                <div class="rights padding-10 flex-center flex-col-dir">
+                    <span>&copy; all rights are received | 2025</span>
+                    <p class="capitalize">developed by eng ahmed nayel al darabee.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="dist/swiper.js"></script>
+    <script src="dist/main.js"></script>
+
+</html>

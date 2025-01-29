@@ -1,0 +1,131 @@
+/*for tablets*/
+@media (max-width:991px) {
+    .header nav{
+        width: 90%;
+    }
+    .header nav .menu ul li{
+        margin: 14px;
+    }
+
+    .header nav .menu ul li a{
+        font-size: 12px;
+    }
+    
+    .home .home-slider .slide .content h3{
+        font-size: 25px;
+    }
+    .home .home-slider .slide .content h1{
+        font-size: 16px;
+    }
+
+    .about-us .all-content .boxs .box {
+        flex-basis: 48%;
+        margin-bottom: 50px;
+    }
+    .food-menu .menu-list ul li {
+        padding: 8px;
+        font-size: 15px;
+    }
+    
+    .food-menu .container-new ,
+    .container-new {
+        width: 98%;
+        max-width: 100%;
+    }
+    
+    .feedback {
+        padding: 50px;
+    }
+    
+    .feedback .feedback-intro {
+        transform: translateY(-20px);
+    }
+    
+    .footer-section .content-information .sections,
+    .reservation-order .order-page .form form {
+        flex-direction: column;
+    }
+    .footer-section .rights p,
+    .footer-section .rights span {
+        font-size: 16px;
+    }
+    .reservation-order .order-page{
+        padding: 8px;
+        width: 90vw;
+    }
+    .reservation-order .order-page .form form input {
+        width: 100%;
+        padding: 8px;
+    }
+    .reservation-order .order-page .form form textarea{
+        padding: 10px;
+    }
+
+    .reservation-order .closed-button {
+        right: 40px;
+        top: 30px;
+        z-index: 88;
+    }
+}
+
+/*for mobiles*/
+@media (max-width:768px) {
+    .header .menuIcon , 
+    .header .foodIcon{
+        display: block;
+    }
+
+    .header nav .menu {
+        position: absolute;
+        top: 100%;/*to enable this section moved from main location 100%*/
+        left: 0;
+        right: 0;/*Yes, you can started from 0 as left and the length into right */
+        padding: 10px;
+        flex-wrap: wrap;/*to enable button to be moved down*/
+    }
+
+    .header nav .menu ul {
+        width: 100%;
+        display: none;
+    }
+
+    .header nav .menu ul li {
+        padding: 0 20px;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;/*to handling li in correct location*/
+        margin:10px auto;
+        background-color: #444;
+        border-radius: 10px;
+    }
+    .header nav .menu ul li a {
+        color: white !important;
+    }
+    
+    .header nav .menu ul li.active,
+    .header nav .menu ul li:hover{
+        background-color: var(--d-yellow);
+    }
+
+    .header nav .menu ul li:after,
+    .header nav .menu .reservationBtn{
+        display: none;
+    }
+
+    .head-section span {
+        font-size: 28px;
+    }
+    .head-section h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .about-us .container .all-content .intro {
+        padding: 30px;
+    }
+    .about-us .container .all-content .intro p {
+        font-size: 35px;
+    }
+    .about-us .all-content .boxs .box {
+        flex-basis: 100%;
+    }
+}
